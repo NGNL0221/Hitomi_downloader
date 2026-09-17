@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+build/
+dist/
+*.spec
+*.zip
+*.part
+*.webp
+*.jpg
+*.jpeg
+*.png
+*.avif
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
