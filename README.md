@@ -36,22 +36,6 @@ python downloader.py "https://hitomi.la/imageset/example-123456.html#1" --worker
 
 并发数最大为 32。通常建议使用 8 到 16，过高可能导致 CDN 限速或失败。
 
-## 打包 EXE
-
-先安装 PyInstaller：
-
-```powershell
-python -m pip install pyinstaller
-```
-
-然后运行：
-
-```powershell
-powershell -ExecutionPolicy Bypass -File .\build.ps1
-```
-
-生成的 EXE 位于 `dist` 目录。
-
 ## 免责声明
 
 本项目仅提供通用的页面资源下载和本地打包功能。使用者应当只下载自己有权保存的内容，并遵守目标网站的服务条款、版权规定及所在地法律法规。项目作者不对使用者下载或传播的内容负责。
