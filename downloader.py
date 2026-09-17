@@ -275,7 +275,7 @@ def gui_main() -> int:
     frame.pack(fill="both", expand=True)
     frame.columnconfigure(1, weight=1)
 
-    ttk.Label(frame, text="模板链接").grid(row=0, column=0, sticky="w", padx=(0, 10), pady=7)
+    ttk.Label(frame, text="链接").grid(row=0, column=0, sticky="w", padx=(0, 10), pady=7)
     url_entry = ttk.Entry(frame, textvariable=url_var)
     url_entry.grid(row=0, column=1, columnspan=2, sticky="ew", pady=7)
 
